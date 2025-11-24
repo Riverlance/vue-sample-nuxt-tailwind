@@ -43,8 +43,8 @@
       <main class="px-16 py-6 bg-gray-100 md:col-span-2">
         <!-- Login -->
         <div class="flex justify-center md:justify-end">
-          <a href="#" class="text-primary">Log in</a>
-          <a href="#" class="text-primary ml-2">Sign up</a>
+          <a href="#" class="btn text-primary">Log in</a>
+          <a href="#" class="btn text-primary ml-2">Sign up</a>
         </div>
 
         <!-- <div class="flex items-center justify-center">
@@ -109,7 +109,7 @@
 
         <!-- Load more -->
         <div class="flex justify-center">
-          <button class="bg-secondary-100 text-secondary-200">Load more</button>
+          <button class="btn bg-secondary-100 text-secondary-200">Load more</button>
         </div>
       </main>
     </div>
