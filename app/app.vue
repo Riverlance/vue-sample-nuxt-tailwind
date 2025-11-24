@@ -65,11 +65,11 @@
 
           <div class="mt-8">
             <!-- cards go here -->
-            <div class="bg-white rounded overflow-hidden">
+            <div class="bg-white rounded overflow-hidden shadow-md">
               <img src="/img/stew.jpg" alt="stew" />
               <div>
-                <span>5 Bean Chili Stew</span>
-                <span>Recipe by Mario</span>
+                <span class="font-bold">5 Bean Chili Stew</span>
+                <span class="text-gray-500 text-sm">Recipe by Mario</span>
               </div>
             </div>
           </div>
