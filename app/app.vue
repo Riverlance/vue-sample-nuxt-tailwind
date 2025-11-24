@@ -42,10 +42,16 @@
       <!-- Main -->
       <main class="px-16 py-6">
         <!-- Login -->
-        <div>
+        <div class="flex justify-end">
           <a href="#" class="text-primary">Log in</a>
-          <a href="#" class="text-primary">Sign up</a>
+          <a href="#" class="text-primary ml-2">Sign up</a>
         </div>
+
+        <!-- <div class="flex items-center justify-center">
+          <div class="bg-red-500 h-4 w-6"></div>
+          <div class="bg-blue-500 h-8 w-6"></div>
+          <div class="bg-green-500 h-12 w-6"></div>
+        </div> -->
 
         <!-- Header -->
         <header>
@@ -76,8 +82,8 @@
         </div>
 
         <!-- Load more -->
-        <div class="bg-secondary-100 text-secondary-200">
-          <button>Load more</button>
+        <div class="flex justify-center">
+          <button class="bg-secondary-100 text-secondary-200">Load more</button>
         </div>
       </main>
     </div>
