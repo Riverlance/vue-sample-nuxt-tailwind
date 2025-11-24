@@ -42,7 +42,7 @@
       <!-- Main -->
       <main class="px-16 py-6 bg-gray-100">
         <!-- Login -->
-        <div class="flex justify-end">
+        <div class="flex justify-center md:justify-end">
           <a href="#" class="text-primary">Log in</a>
           <a href="#" class="text-primary ml-2">Sign up</a>
         </div>
