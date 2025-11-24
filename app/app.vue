@@ -69,7 +69,7 @@
               <img src="/img/stew.jpg" alt="stew" />
               <div>
                 <span class="font-bold">5 Bean Chili Stew</span>
-                <span class="text-gray-500 text-sm">Recipe by Mario</span>
+                <span class="block text-gray-500 text-sm">Recipe by Mario</span>
               </div>
             </div>
           </div>
