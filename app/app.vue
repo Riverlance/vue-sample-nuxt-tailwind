@@ -40,7 +40,7 @@
       </div>
 
       <!-- Main -->
-      <main class="px-16 py-6">
+      <main class="px-16 py-6 bg-gray-100">
         <!-- Login -->
         <div class="flex justify-end">
           <a href="#" class="text-primary">Log in</a>
