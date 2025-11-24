@@ -43,8 +43,8 @@
       <main class="px-16 py-6">
         <!-- Login -->
         <div>
-          <a href="#">Log in</a>
-          <a href="#">Sign up</a>
+          <a href="#" class="text-primary">Log in</a>
+          <a href="#" class="text-primary">Sign up</a>
         </div>
 
         <!-- Header -->
@@ -76,7 +76,7 @@
         </div>
 
         <!-- Load more -->
-        <div>
+        <div class="bg-secondary-100 text-secondary-200">
           <button>Load more</button>
         </div>
       </main>
