@@ -5,10 +5,10 @@
 
 
     <!-- Content wrapper -->
-    <div>
+    <div class="grid grid-cols-3">
 
       <!-- Navigation -->
-      <div>
+      <div class="col-span-1">
         <nav>
 
           <!-- Logo -->
@@ -40,7 +40,7 @@
       </div>
 
       <!-- Main -->
-      <main class="px-16 py-6 bg-gray-100">
+      <main class="px-16 py-6 bg-gray-100 col-span-2">
         <!-- Login -->
         <div class="flex justify-center md:justify-end">
           <a href="#" class="text-primary">Log in</a>
