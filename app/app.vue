@@ -13,7 +13,7 @@
 
           <!-- Logo -->
           <div>
-            <h1 class="font-bold uppercase p-4">
+            <h1 class="font-bold uppercase p-4 border-b border-gray-100">
               <a href="/">Food Ninja</a>
             </h1>
           </div>
@@ -55,7 +55,7 @@
 
         <!-- Recipes -->
         <div>
-          <h4 class="font-bold mt-12 pb-2">Latest Recipes</h4>
+          <h4 class="font-bold mt-12 pb-2 border-b border-gray-200">Latest Recipes</h4>
 
           <div class="mt-8">
             <!-- cards go here -->
@@ -68,7 +68,7 @@
             </div>
           </div>
 
-          <h4 class="font-bold mt-12 pb-2">Most Popular</h4>
+          <h4 class="font-bold mt-12 pb-2 border-b border-gray-200">Most Popular</h4>
 
           <div class="mt-8">
             <!-- cards go here -->
