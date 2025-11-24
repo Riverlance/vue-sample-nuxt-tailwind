@@ -66,7 +66,7 @@
           <div class="mt-8">
             <!-- cards go here -->
             <div class="bg-white rounded overflow-hidden shadow-md">
-              <img src="/img/stew.jpg" alt="stew" />
+              <img src="/img/stew.jpg" alt="stew" class="w-full" />
               <div class="m-4">
                 <span class="font-bold">5 Bean Chili Stew</span>
                 <span class="block text-gray-500 text-sm">Recipe by Mario</span>
