@@ -13,14 +13,14 @@
 
           <!-- Logo -->
           <div>
-            <h1>
+            <h1 class="font-bold uppercase">
               <a href="/">Food Ninja</a>
             </h1>
           </div>
 
           <!-- Links -->
           <ul>
-            <li>
+            <li class="text-gray-700 font-bold">
               <a href="#">
                 <span>Home</span>
               </a>
@@ -49,13 +49,13 @@
 
         <!-- Header -->
         <header>
-          <h2>Recipes</h2>
-          <h3>For Ninjas</h3>
+          <h2 class="text-gray-700 text-6xl font-semibold">Recipes</h2>
+          <h3 class="text-2xl font-semibold">For Ninjas</h3>
         </header>
 
         <!-- Recipes -->
         <div>
-          <h4>Latest Recipes</h4>
+          <h4 class="font-bold">Latest Recipes</h4>
 
           <div>
             <!-- cards go here -->
@@ -68,7 +68,7 @@
             </div>
           </div>
 
-          <h4>Most Popular</h4>
+          <h4 class="font-bold">Most Popular</h4>
 
           <div>
             <!-- cards go here -->
