@@ -65,7 +65,7 @@
 
           <div class="mt-8">
             <!-- cards go here -->
-            <div class="bg-white rounded">
+            <div class="bg-white rounded overflow-hidden">
               <img src="/img/stew.jpg" alt="stew" />
               <div>
                 <span>5 Bean Chili Stew</span>
