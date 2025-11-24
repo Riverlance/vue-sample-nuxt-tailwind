@@ -78,7 +78,7 @@
             </div>
 
             <div class="card">
-              <img src="/img/stew.jpg" alt="noodles" class="w-full h-32 sm:h-48 object-cover" />
+              <img src="/img/noodles.jpg" alt="noodles" class="w-full h-32 sm:h-48 object-cover" />
               <div class="m-4">
                 <span class="font-bold">Veg Noodles</span>
                 <span class="block text-gray-500 text-sm">Recipe by Mario</span>
@@ -89,7 +89,7 @@
             </div>
 
             <div class="card">
-              <img src="/img/stew.jpg" alt="curry" class="w-full h-32 sm:h-48 object-cover" />
+              <img src="/img/curry.jpg" alt="curry" class="w-full h-32 sm:h-48 object-cover" />
               <div class="m-4">
                 <span class="font-bold">Tofu Curry</span>
                 <span class="block text-gray-500 text-sm">Recipe by Mario</span>
