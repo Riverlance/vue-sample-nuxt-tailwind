@@ -65,10 +65,33 @@
 
           <div class="mt-8">
             <!-- cards go here -->
+
             <div class="card">
               <img src="/img/stew.jpg" alt="stew" class="w-full h-32 sm:h-48 object-cover" />
               <div class="m-4">
                 <span class="font-bold">5 Bean Chili Stew</span>
+                <span class="block text-gray-500 text-sm">Recipe by Mario</span>
+              </div>
+              <div class="badge">
+                <span>25 mins</span>
+              </div>
+            </div>
+
+            <div class="card">
+              <img src="/img/stew.jpg" alt="noodles" class="w-full h-32 sm:h-48 object-cover" />
+              <div class="m-4">
+                <span class="font-bold">Veg Noodles</span>
+                <span class="block text-gray-500 text-sm">Recipe by Mario</span>
+              </div>
+              <div class="badge">
+                <span>25 mins</span>
+              </div>
+            </div>
+
+            <div class="card">
+              <img src="/img/stew.jpg" alt="curry" class="w-full h-32 sm:h-48 object-cover" />
+              <div class="m-4">
+                <span class="font-bold">Tofu Curry</span>
                 <span class="block text-gray-500 text-sm">Recipe by Mario</span>
               </div>
               <div class="badge">
