@@ -19,3 +19,9 @@ body {
 .btn {
   @apply rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wide;
 }
+
+:root {
+  /* Variables */
+  --primary: #1eccac;
+  --leadFont: 1.2rem;
+}
