@@ -5,7 +5,7 @@
 
 
     <!-- Content wrapper -->
-    <div class="grid md:grid-cols-3">
+    <div class="grid md:grid-cols-5">
 
       <!-- Navigation -->
       <div class="md:col-span-1 md:flex md:justify-end">
@@ -54,7 +54,7 @@
       </div>
 
       <!-- Main -->
-      <main class="px-16 py-6 bg-gray-100 md:col-span-2">
+      <main class="px-16 py-6 bg-gray-100 md:col-span-4">
         <!-- Login -->
         <div class="flex justify-center md:justify-end">
           <a href="#" class="btn text-primary border-primary md:border-2 hover:bg-primary hover:text-white transition ease-out duration-500">Log in</a>
