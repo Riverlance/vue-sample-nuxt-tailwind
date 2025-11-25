@@ -16,7 +16,7 @@
             <h1 class="font-bold uppercase p-4 border-b border-gray-100">
               <a href="/" class="hover:text-gray-700">Food Ninja</a>
             </h1>
-            <div class="px-4 cursor-pointer md:hidden">
+            <div class="px-4 cursor-pointer md:hidden" id="burguer">
               <svg class="w-6" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
               </svg>
@@ -24,7 +24,7 @@
           </div>
 
           <!-- Links -->
-          <ul class="text-sm mt-6 hidden md:block">
+          <ul class="text-sm mt-6 hidden md:block" id="menu">
             <li class="py-1 text-gray-700 font-bold">
               <a href="#" class="px-4 flex justify-end border-r-4 border-primary">
                 <span>Home</span>
