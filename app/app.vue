@@ -57,8 +57,8 @@
       <main class="px-16 py-6 bg-gray-100 md:col-span-2">
         <!-- Login -->
         <div class="flex justify-center md:justify-end">
-          <a href="#" class="btn text-primary border-primary md:border-2 hover:bg-primary hover:text-white">Log in</a>
-          <a href="#" class="btn text-primary ml-2 border-primary md:border-2 hover:bg-primary hover:text-white">Sign up</a>
+          <a href="#" class="btn text-primary border-primary md:border-2 hover:bg-primary hover:text-white transition ease-out duration-500">Log in</a>
+          <a href="#" class="btn text-primary ml-2 border-primary md:border-2 hover:bg-primary hover:text-white transition ease-out duration-500">Sign up</a>
         </div>
 
         <!-- <div class="flex items-center justify-center">
@@ -132,7 +132,7 @@
 
         <!-- Load more -->
         <div class="flex justify-center">
-          <button class="btn bg-secondary-100 text-secondary-200 hover:shadow-inner">Load more</button>
+          <button class="btn bg-secondary-100 text-secondary-200 hover:shadow-inner transform hover:scale-110 hover:bg-opacity-50 transition ease-out duration-300">Load more</button>
         </div>
       </main>
     </div>

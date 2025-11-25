@@ -9,7 +9,7 @@ body {
 }
 
 .card {
-  @apply bg-white rounded overflow-hidden shadow-md relative hover:shadow-lg;
+  @apply bg-white rounded overflow-hidden shadow-md relative hover:shadow-xl cursor-pointer transform hover:scale-105 transition ease-in-out duration-300;
 }
 
 .badge {
