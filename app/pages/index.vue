@@ -130,12 +130,56 @@
           </div>
         </div>
 
-        <!-- Load more -->
-        <div class="flex justify-center">
-          <button class="btn bg-secondary-100 text-secondary-200 hover:shadow-inner transform hover:scale-110 hover:bg-opacity-50 transition ease-out duration-300">Load more</button>
-        </div>
+        <!-- Footer -->
+        <footer class="pt-6">
+          <div class="flex justify-center gap-8">
+            <!-- This button uses color variables, which is the correct way for dark mode usage -->
+            <button @click="toggleDark()" class="btn text-primary border-[color:var(--primary)] md:border-2 hover:bg-[color:var(--primary)] hover:text-white transition ease-out duration-200">Toggle Theme</button>
+
+            <span class="block">
+              {{ darkTheme ? 'Dark' : 'Light' }} Mode
+            </span>
+          </div>
+
+          <!-- Load more -->
+          <div class="flex justify-center">
+            <button class="btn bg-secondary-100 text-secondary-200 hover:shadow-inner transform hover:scale-110 hover:bg-opacity-50 transition ease-out duration-300">Load more</button>
+          </div>
+        </footer>
       </main>
     </div>
 
   </div>
 </template>
+
+<script setup>
+// The dark state is correct only on client, not on server
+// Which means that we need to create a reactive variable (ref) for it
+const darkTheme = ref(false)
+
+// toogleDark needs to be visible on template, for the theme switcher button
+let toggleDark
+
+// useDark works on correctly only on client, so we need to use onMounted
+onMounted(() => {
+  const isDark = useDark({
+    selector: 'html', // element to toggle attribute to
+    attribute: 'class', // attribute name
+    valueDark: 'dark', // attribute name value for dark
+    valueLight: 'light', // attribute name value for light
+    // storageKey: 'theme',
+    // storage: localStorage,
+  })
+
+  // Set the initial value
+  darkTheme.value = isDark.value
+
+  // Watch changes to isDark and set it to darkTheme, which is a reactive variable
+  watch(isDark, (newValue) => {
+    darkTheme.value = newValue
+  })
+
+  // useToggle depends on isDark, so needs to be here also
+  toggleDark = useToggle(isDark)
+})
+</script>
